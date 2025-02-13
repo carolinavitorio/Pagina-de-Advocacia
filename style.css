@@ -799,6 +799,9 @@ li:hover{
 }
 
 @media (max-width: 1440px){
+    .welcome-container{
+        height: 90vh;
+    }
 
     .content{
         padding: 0 90px;
@@ -857,7 +860,7 @@ li:hover{
     }
 
     .welcome-container{
-        height: 75vh;
+        height: 120vh;
     }
 
     .content{
@@ -877,7 +880,7 @@ li:hover{
     }
 
     .form-container{
-        height: 100vh;
+        height: 130vh;
     }
 
     footer{
@@ -921,7 +924,7 @@ li:hover{
     }
 
     .welcome-container{
-        height: 160vh;
+        height: 220vh;
     }
 
     .signature-text{
@@ -941,7 +944,7 @@ li:hover{
     }
 
     .testimonials-container{
-        height: 100vh;
+        height: 150vh;
     }
 
     .testimonials-cards-container{
@@ -960,6 +963,7 @@ li:hover{
 
     .form-container{
         flex-direction: column;
+        height: 140vh;
     }
 
     .form-img{
@@ -976,7 +980,7 @@ li:hover{
 
     footer{
         padding: 80px 40px 0 40px;
-        height: 120vh;
+        height: 150vh;
     }
 
     .footer-content{
@@ -1002,7 +1006,7 @@ li:hover{
 
 @media (max-width: 768px){
     .welcome-container{
-        height: 180vh;
+        height: 280vh;
     }
 
     .attorney-img{
@@ -1017,14 +1021,26 @@ li:hover{
         width: 45%;
     }
 
+    .our-services-container{
+        height: 180vh;
+    }
+
+    .testimonials-container{
+        height: 180vh;
+    }
+
+    .form-container{
+        height: 180vh;
+    }
+
     footer{
-        height: 110vh;
+        height: 180vh;
     }
 }
 
 @media (max-width: 600px){
     .welcome-container{
-        height: 240vh;
+        height: 350vh;
     }
 
     .signature-container{
@@ -1034,13 +1050,13 @@ li:hover{
 
     .signature-content{
         width: 95%;
-        height: 25%;
+        height: 40%;
         justify-content: end;
     }
 
     .attorney-container{
         width: 95%;
-        height: 30%;
+        height: 35%;
         justify-content: center;
     }
         
@@ -1086,7 +1102,7 @@ li:hover{
     }
 
     .welcome-container{
-        height: 2050px;
+        height: 1700px;
         align-items: end;
     }
 
@@ -1134,7 +1150,7 @@ li:hover{
     }
 
     .testimonials-container{
-        height: 130vh;
+        height: 150vh;
     }
 
     .testimonials-cards-container{
@@ -1150,7 +1166,7 @@ li:hover{
     }
 
     .form-container{
-        height: 140vh;
+        height: 200vh;
     }
 
     .form-content{
@@ -1167,7 +1183,7 @@ li:hover{
 
     footer{
         padding: 50px 10px 0 10px;
-        height: 100vh;
+        height: 180vh;
     }
 
     .footer-content{
